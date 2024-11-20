@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-green: #4CAF50;
+    --color-blue: #8FCBFF;
+    --color-grey-light: #F5F5F5;
+    --color-grey: #333333;
+    --color-white: #FFFFFF;
+}
+
+html {
+    font-size: 65.2%;
+}
+
+body {
+    font-family: "Poppins", serif;
+}
+
+/* formatação header */
+.header {
+    width: 100%;
+    height: 12vh;
+    padding: 2rem;
+    background-color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 7px;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    color: var(--color-green);
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+/* formatação hero */
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #8FCBFF, #FFFFFF);
+    text-align: center;
+    align-items: center;
+}
+
+.hero h1 {
+    padding-top: 6rem;
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: var(--color-grey);
+    text-align: center;
+}
+
+.hero h3 {
+    padding: 2rem 10rem;
+    font-size: 1.6rem;
+    font-weight: 800;
+    text-align: center;
+    color: var(--color-grey);
+}
+
+.hero button {
+    width: 180px;
+    height: 35px;
+    padding: 0rem 2rem 0 2rem;
+    border: 0;
+    background-color: var(--color-green);
+    color: var(--color-white);
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: "Poppins", serif;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+
+.hero img {
+    width: 350px;
+    height: 240px;
+    border-radius: 7px;
+}
+
+.card {
+    padding-top: 8rem;
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+}
+
+/* formatação main */
+/* formtação section education */
+.education {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-grey-light);
+    align-items: center;
+}
+
+.education h1 {
+    padding-top: 8rem;
+    color: var(--color-green);
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.cards {
+    padding: 4rem 8rem 8rem 8rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 8rem;
+}
+
+.card1 {
+    width: 80%;
+    height: 80%;
+    font-size: 1.5rem;
+    color: var(--color-green);
+}
+
+.card2 {
+    width: 80%;
+    height: 80%;
+    font-size: 1.5rem;
+    color: var(--color-green);
+}
+
+.icon {
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+
+/* formatação section solutions */
+.solutions {
+    width: 100%;
+    height: 70vh;
+    background-color: var(--color-white);
+}
+
+.solutions h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    padding-top: 4rem;
+    color: var(--color-blue);
+    text-align: center;
+}
+
+.card3 {
+    padding-top: 1rem;
+    width: 80%;
+    height: 80%;
+    font-size: 1.4rem;
+    color: var(--color-blue);
+}
+
+.card4 {
+    padding-top: 1rem;
+    width: 80%;
+    height: 80%;
+    font-size: 1.4rem;
+    color: var(--color-blue);
+}
+
+.card5 {
+    padding-top: 1rem;
+    width: 80%;
+    height: 80%;
+    font-size: 1.4rem;
+    color: var(--color-blue);
+}
+
+/* formatação section engagement */
+.engagement {
+    width: 100%;
+    height: 60vh;
+    padding-top: 3rem;
+    background-color: var(--color-white);
+}
+
+.engagement h1 {
+    padding: 1.5rem 2rem;
+    color: var(--color-grey);
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.box-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+    color: #333333;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.form-control {
+    padding: 0.75rem;
+    border: 1px solid #8FCBFF;
+    border-radius: 5px;
+    font-family: "Poppins", serif;
+}
+
+.form-btn {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-btn:hover {
+    background-color: #8FCBFF;
+}
+
+/* formatação section depoiment */
+.depoiment {
+    width: 100%;
+    height: 90vh;
+    background-color: var(--color-grey-light);
+    color: var(--color-green);
+}
+
+.depoiment h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.card6 {
+    padding-top: 1rem;
+    width: 80%;
+    height: 80%;
+    font-size: 1.4rem;
+    color: var(--color-green);
+}
+
+.card7 {
+    padding-top: 1rem;
+    width: 80%;
+    height: 80%;
+    font-size: 1.4rem;
+    color: var(--color-green);
+}
+
+.card8 {
+    padding-top: 1rem;
+    width: 80%;
+    height: 80%;
+    font-size: 1.4rem;
+    color: var(--color-green);
+}
+
+/* formatação footer */
+.footer {
+    width: 100%;
+    height: 9vh;
+    background-color: var(--color-grey);
+    color: var(--color-white);
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 10rem;
+}
